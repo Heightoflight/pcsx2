@@ -533,7 +533,7 @@ __fi void IPUCMD_WRITE(u32 val)
 	{
 		IPUCoreStatus.WaitingOnIPUFrom = false;
 		IPUCoreStatus.WaitingOnIPUTo = false;
-		IPU_INT_PROCESS(64);
+		IPU_INT_PROCESS(450);
 	}
 	else
 		IPUWorker();
